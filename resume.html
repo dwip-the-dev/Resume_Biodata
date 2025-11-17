@@ -3,67 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Resume | Ansh Jain</title>
+  <title>Resume | Aryan Manhas</title>
+
+  <script src="https://unpkg.com/feather-icons"></script>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <h1>Aryan Manhas</h1>
+
+  <header class="nav">
+    <h1 class="logo">Aryan Manhas</h1>
     <nav>
       <a href="index.html">Bio-data</a>
       <a href="resume.html" class="active">Resume</a>
     </nav>
   </header>
 
-  <section class="resume">
-    <h2>Personal Information</h2>
-    <p><strong>Name:</strong> Aryan Manhas<br>
-    <strong>Email:</strong> <a href="mailto:aryanmanhas06@gmail.com">aryanmanhas06@gmail.com</a><br>
-    <strong>Phone:</strong> <a href="tel:+8237402877">+91 82374 02877</a><br>
-    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aryan-manhas/" target="_blank">https://www.linkedin.com/in/aryan-manhas/</a><br>
-    <strong>GitHub:</strong> <a href="https://github.com/aryan-manhas" target="_blank">https://github.com/aryan-manhas</a></p>
+  <section class="card fade">
 
-    <h2>Education</h2>
+    <h2><i data-feather="file-text"></i> Personal Information</h2>
+
+    <p class="info-text">
+      <strong>Name:</strong> Aryan Manhas<br>
+      <strong>Email:</strong> <a href="mailto:aryanmanhas06@gmail.com">aryanmanhas06@gmail.com</a><br>
+      <strong>Phone:</strong> <a href="tel:+918237402877">+91 82374 02877</a><br>
+      <strong>LinkedIn:</strong> 
+      <a href="https://www.linkedin.com/in/aryan-manhas/" target="_blank">linkedin.com/in/aryan-manhas</a><br>
+      <strong>GitHub:</strong> 
+      <a href="https://github.com/aryan-manhas" target="_blank">github.com/aryan-manhas</a>
+    </p>
+
+    <h2><i data-feather="book-open"></i> Education</h2>
     <ul>
-      <li><strong>Secondary Schooling (2020-2021)</strong><br>
-      Kendriya Vidyalaya (KV) No.2 Chakeri, Kanpur<br>
-      X Grade | Percentage: 93.6</li>
-      <li><strong>Senior Secondary Schooling (2022-2023)</strong><br>
-      Kendriya Vidyalaya (KV) No.2 Chakeri, Kanpur<br>
-      XII Grade | Percentage: 81</li>
-      <li><strong>B.E. in Computer Science and Engineering (2023-2027)</strong><br>
-      R V Institute of Technology and Management (RVITM), Bengaluru<br>
-      3rd Year | CGPA: 8.42</li>
+      <li><strong>10th (2020–2021)</strong> — 93.6%</li>
+      <li><strong>12th (2022–2023)</strong> — 81%</li>
+      <li><strong>B.E. CSE (2023–2027)</strong> — CGPA: 8.42</li>
     </ul>
 
-    <h2>Skills</h2>
+    <h2><i data-feather="star"></i> Skills</h2>
+    <div class="skills">
+      <span>C</span>
+      <span>C++</span>
+      <span>Java</span>
+      <span>Python</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>MySQL</span>
+      <span>LangChain</span>
+      <span>Git</span>
+      <span>GitHub</span>
+      <span>VS Code</span>
+    </div>
+
+    <h2><i data-feather="cpu"></i> Projects</h2>
     <ul>
-      <li><strong>Coding Languages:</strong> C, C++, Java, Python</li>
-      <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
-      <li><strong>Databases:</strong> MySQL</li>
-      <li><strong>Framework:</strong> LangChain</li>
-      <li><strong>Tools:</strong> Git,GitHub, VS Code</li>
-      <li><strong>Are Of Interest:</strong>  Full Stack Development, Agentic AI and LLM based Systems</li>
+      <li>
+        <strong>AI Question Bank Assistant</strong><br>
+        A RAG-based chatbot built using LangChain + Gemini API.
+        <div class="badge-row">
+          <span class="badge">LangChain</span>
+          <span class="badge">ChromaDB</span>
+          <span class="badge">Gemini API</span>
+          <span class="badge">pdfplumber</span>
+        </div>
+      </li>
     </ul>
 
-    <h2>Projects</h2>
+    <h2><i data-feather="award"></i> Achievements</h2>
     <ul>
-      <li><strong>Subject Guide & Question Bank Assistant AI Agent</strong><br>
-      Developed an intelligent RAG-based chatbot using LangChain and Google Gemini API to enable context-aware 
-      question answering from uploaded PDFs.<br>
-<strong>Tools & Technologies:</strong> LangChain, Google Gemini API, ChromaDB, pdfplumber</li>
+      <li>Completed Computer Networks Course</li>
+      <li>Completed Agile Tools (Trello)</li>
+      <li>AI Agents Workshop — Capabl</li>
     </ul>
 
-    <h2>Achievements & Activities</h2>
-    <ul>
-      <li>Completed <strong>Computer Network Course</strong></li>
-      <li>Completed <strong>Agile Tool Course</strong>about Trello</li>
-      <li>Completed 2 Day Workshop on <strong>AI Agents by Capabl.</strong></li>
-    </ul>
   </section>
 
   <footer>
-    <p>© 2025 Aryan Manhas | All rights reserved.</p>
+    © 2025 Aryan Manhas • All Rights Reserved
   </footer>
+
+<script>feather.replace()</script>
 </body>
 </html>
